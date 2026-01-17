@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
@@ -6,6 +7,34 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.blue {
+    color: #6415ff;
+}
+
+
 
 /* NAVIGATION BAR */
 
@@ -44,6 +73,10 @@ nav {
     color: #243e63
 }
 
+h1 {
+    font-size: 36px;
+}
+
 ul {
     display: flex;
 }
@@ -61,7 +94,7 @@ li {
 .nav__link {
     margin-left: 16px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     color:#243e63;
     font-weight: bold;
     padding: 12px;
@@ -90,11 +123,75 @@ li {
 
 /* HEADER */
 
+.header__container {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
 
+header .row {
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+}
 
+.header__description {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
 
+.header__title {
+    color: #1a202c;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
 
+.header__para {
+    font-size: 16px;
+    color: #243e63;
+    margin: 32px 0;
+}
 
+input {
+    width: 100%;
+    border-radius: 50px;
+    border-width: 2px;
+    background-color: #ffffff;
+    padding: 20px 192px 20px 32px;
+    font-weight: bold;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+}
 
+.header__btn {
+    background-color: #6415ff;
+    color: white;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 8 8 8 0;
+    padding: 16px 0;
+}
 
+.customers {
+    font-size: 14px;
+    color: #a0aec0;
+}
 
+.header__figure--customers {
+    color: #a0aec0;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.header__img--wrapper {
+    width: 600px;
+}
