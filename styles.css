@@ -328,26 +328,10 @@ input-wrapper button {
 
 .features__img {
     font-size: 24px;
-    border: 2px solid color #7c8ba1
-    color: #7c8ba1;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50px;
     margin-bottom: 24px;
-}
-
-.frame {
-    border: 2px solid color #7c8ba1;
-    border-radius: 50px;
-    color: #7c8ba1;
-    padding: 20px;
-    display: inline-block;
-}
-
-.frame__img {
-    width: 150px;
-    display: block;
 }
 
 .features__title {
@@ -358,4 +342,17 @@ input-wrapper button {
     color: #7c8ba1;
     margin: 16px 0 0;
     padding: 12px;
+}
+
+.frame {
+    border: 2px solid #7c8ba162;
+    border-radius: 50px;
+    color: #7c8ba1;
+    padding: 8px;
+    display: inline-block;
+}
+
+.frame__img {
+    width: 150px;
+    display: inline-block;
 }
