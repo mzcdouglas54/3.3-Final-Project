@@ -428,7 +428,6 @@ header .row {
     font-weight: 700px;
     font-size: 16px;
     color: #243e63;
-    line-height: ;
 }
 
 .step__para {
@@ -461,7 +460,7 @@ header .row {
 }
 
 .step__description {
-    padding: 16px 0 32px 64px;
+    padding: 16px;
     display: flex;
     flex-direction: column;
     margin-left: 24px;
@@ -490,4 +489,118 @@ header .row {
 .step__title {
     font-size: 20px;
     font-weight: 600;
+}
+
+/* VALUES */
+
+#values {
+    margin: 0 16px;
+    padding: 32px 8px;
+}
+
+.section__title--values {
+    margin: 16px 0;
+    font-weight: 600px;
+    font-size: 16px;
+    color: #243e63;
+}
+
+.values__head {
+    margin: 16px 0 16px 0;
+    font-weight: 600;
+}
+
+.values__para {
+    font-size: 16px;
+    color: #7c8ba1;
+    padding: 16px;
+}
+
+.values__container {
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    aic
+    width: calc(100% / 2);
+    gap: 20px;
+}
+
+.values__text--box {
+    padding: 24px;
+    width: calc(100% / 2);
+}
+
+.values__img--box {
+    padding: 24px;
+    width: calc(100% / 2);
+}
+
+.values__row {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.values__img--wrapper-aff {
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    background-color: #9ae6b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.values__img--affordable {
+    width: 20px;
+    height: 20px;
+}
+
+.values__img--wrapper-prof {
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    background-color: #feb2b2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.values__img--professionalism {
+    width: 20px;
+    height: 20px;
+}
+
+.values__title {
+    padding: 16px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.values__img--primary {
+    padding: 16px;
+    max-width: 500px;
+}
+
+.title__rows {
+    display: flex;
+    gap: 24px;
+}
+
+.title__row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.values__btn {
+    width: 160px;
+    padding: 16px 16px;
+    margin: 8px 8px 8px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    background-color: #6415ff;
+    color: white;
+    cursor: pointer;
 }
