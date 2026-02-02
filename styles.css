@@ -646,6 +646,7 @@ header .row {
     display: flex;
     gap: 32px;
     justify-content: center;
+    margin-top: 24px;
 }
 
 .plan__per {
@@ -867,4 +868,44 @@ header .row {
 
 /* TESTIMONIALS */
 
+#testimonials {
+    margin: 0 16px;
+    padding: 96px 0;
+}
+
+#testimonials.row {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonials__img--primary {
+    padding: 16px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.section__title--testimonials {
+    margin: 16px 0;
+    font-weight: 700;
+    font-size: 16px;
+    color: #243e63;
+}
+
+.testimonials__head {
+    margin: 16px 0 24px;
+    font-weight: 700;
+}
+
+.testimonials__para {
+    font-size: 16px;
+    color: #7c8ba1;
+    margin-top: 12px;
+    font-weight: 500;
+    line-height: 2;
+}
 
