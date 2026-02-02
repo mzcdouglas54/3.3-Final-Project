@@ -638,7 +638,233 @@ header .row {
 .pricing__para {
     max-width: 576px;
     text-align: center;
-    margin-top: 16px;
+    margin: 16px 0;
     color: #7c8ba1;
 }
+
+.plans {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.plan__per {
+    position: relative;
+    background-color: #f7fafc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #243e633b;
+    border-radius: 12px;
+}
+
+.plan__bus {
+    background-color: #6415ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #243e633b;
+    border-radius: 12px;
+}
+
+.plan__ent {
+    background-color: #f7fafc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #243e633b;
+    border-radius: 12px;
+}
+
+.plans__container {
+    width: 300px;
+}
+
+.plan__stripe--per {
+    position: absolute;
+    background-color: #38b2ac;
+}
+
+.plan__top--per {
+    color: #243e63;
+    font-size: 16px;
+    padding: 32px 0;
+}
+
+.plan__name--per {
+    font-size: 20px;
+}
+
+.plan__price--per {
+    font-size: 48px;
+    margin: 4px 0;
+}
+
+.plan__duration--per {
+    font-size: 16px;
+    color: #a0aec0;
+}
+
+.plan__middle--per {
+    color: #243e63;
+    font-size: 16px;
+    margin: 0 -32px;
+    padding: 32px;
+}
+
+.plan__target--per {
+    font-size: 20px;
+    color: #1a202c;
+}
+
+.plan__feature--per {
+    color: #718096;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.plan__bottom--per {
+    color: #243e63;
+    font-size: 16px;
+    padding: 32px;
+}
+
+.plan__btn--per {
+   color: #f7fafc;
+   background-color: #38b2ac;
+   width: 160px;
+   padding: 16px 16px;
+   margin: 8px 8px 8px 0;
+   font-size: 16px;
+   border: none;
+   border-radius: 50px;
+   cursor: pointer; 
+}
+
+.plan__stripe--bus {
+    color: #243e63;
+}
+
+.plan__top--bus {
+    color: #f7fafc;
+    font-size: 16px;
+    padding: 32px 0;
+}
+
+.plan__name--bus {
+    font-size: 20px;
+}
+
+.plan__price--bus {
+    font-size: 48px;
+    margin: 4px 0;
+}
+
+.plan__duration--bus {
+    font-size: 16px;
+    color: #f7fafc;
+}
+
+.plan__middle--bus {
+    color: #f7fafc;
+    font-size: 16px;
+    margin: 0 -32px;
+    padding: 32px;
+}
+
+.plan__target--bus {
+    font-size: 20px;
+    color: #f7fafc;
+}
+
+.plan__feature--bus {
+    color: #f7fafc;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.plan__bottom--bus {
+    color: #f7fafc;
+    font-size: 16px;
+    padding: 32px;
+}
+
+.plan__btn--bus {
+    color: #6415ff;
+    background-color: #f7fafc;
+    width: 160px;
+    padding: 16px 16px;
+    margin: 8px 8px 8px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.plan__stripe--ent {
+    color: #f56565;
+}
+
+.plan__top--ent {
+    color: #243e63;
+    font-size: 16px;
+    padding: 32px 0;
+}
+
+.plan__name--ent {
+    font-size: 20px;
+}
+
+.plan__price--ent {
+    font-size: 48px;
+    color: #a0aec0;
+    margin: 4px 0;
+}
+
+.plan__duration--ent {
+    font-size: 16px;
+    color: #a0aec0;
+}
+
+.plan__middle--ent {
+    color: #243e63;
+    font-size: 16px;
+    margin: 0 -32px;
+    padding: 32px;
+}
+
+.plan__target--ent {
+    font-size: 20px;
+    color: #1a202c;
+}
+
+.plan__feature--ent {
+    color: #718096;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.plan__bottom--ent {
+    color: #243e63;
+    font-size: 16px;
+    padding: 32px;
+}
+
+.plan__btn--ent {
+    width: 160px;
+    padding: 16px 16px;
+    margin: 8px 8px 8px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    background-color: #f56565;
+    color: white;
+    cursor: pointer;
+}
+
+/* TESTIMONIALS */
+
 
