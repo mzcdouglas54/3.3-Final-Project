@@ -883,12 +883,15 @@ header .row {
 
 .testimonials__container {
     display: flex;
+}
 
-
+.testimonials__text--box {
+    padding: 0 0 0 64px;
 }
 
 .testimonials__img--primary {
-    padding: 16px;
+    margin: 32px 0;
+    padding: 64px 16px;
     width: 500px;
     align-items: center;
     justify-content: center;
@@ -994,6 +997,4 @@ header .row {
 }
 
 /* START */
-
-
 
