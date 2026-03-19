@@ -142,12 +142,6 @@ header {
     padding: 96px 0;
 }
 
-header .row {
-    display: flex;
-    align-items: right;
-    justify-content: space-between;
-}
-
 .header__container {
     width: 100%;
     max-width: 1200px;
@@ -156,6 +150,10 @@ header .row {
     align-items: left;
     margin: 0 auto;
     text-align: center;
+}
+
+.header__row {
+    margin: 0 auto;
 }
 
 .header__description {
@@ -356,7 +354,8 @@ header .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+    margin: 0;
+}   
 
 .quality__head {
     padding: 16px 0;
@@ -1171,4 +1170,3 @@ header .row {
     font-size: 20px;
     padding: 0 0 0 8px;
 }
-
