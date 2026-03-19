@@ -329,7 +329,7 @@ header {
 }
 
 .frame {
-    border: 2px solid #7c8ba12f;
+    border: 1px solid #7c8ba12f;
     border-radius: 50px;
     color: #7c8ba1;
     padding: 16px;
