@@ -504,20 +504,22 @@ header {
 /* VALUES */
 
 #values {
-    margin: 0 16px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 96px 0;
 }
 
 .section__title--values {
     margin: 16px 0;
-    font-weight: 600px;
+    font-weight: 700px;
     font-size: 16px;
     color: #243e63;
 }
 
 .values__head {
     margin: 16px 0 16px 0;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .values__para {
@@ -527,22 +529,15 @@ header {
 }
 
 .values__container {
-    padding: 16px;
     display: flex;
-    flex-direction: row;
+    width: 100%;
     align-items: center;
-    width: calc(100% / 2);
     gap: 20px;
 }
 
-.values__text--box {
-    padding: 24px;
-    width: calc(100% / 2);
-}
-
+.values__text--box,
 .values__img--box {
-    padding: 24px;
-    width: calc(100% / 2);
+    width: 50%;
 }
 
 .values__row {
@@ -1098,10 +1093,6 @@ header {
 
 footer {
     padding: 96px 32px;
-    background-color: #6415ff;
-    margin-bottom: -32px;
-    position: relative;
-    overflow: hidden;
 }
 
 .footer__container {
@@ -1113,6 +1104,7 @@ footer {
     flex-direction: column;
     border-radius: 8px;
     margin: 0 auto;
+    background-color: #6415ff;
     color: #f7fafc;
 }
 
