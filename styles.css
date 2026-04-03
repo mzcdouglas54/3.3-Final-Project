@@ -147,7 +147,7 @@ nav__links {
 }
 
 .nav__link--primary:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .btn__menu {
@@ -799,8 +799,8 @@ header {
 }
 
 .plan__stripe--bus {
-    background: linear-gradient(to right, #6415ff, #6f2cf5);
-    position: absolute;
+    background: linear-gradient(to right, #6415ff, #9264ec);
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -1350,9 +1350,59 @@ footer {
 /* MOBILE RESPONSIVENESS */
 
 @media (max-width: 768px) {
-    .header__container {
-        flex-direction: column;
+    nav {
+        height: 68px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    .section__title--features,
+    .section__title--pricing,
+    .section__title--quality,
+    .section__title--steps,
+    .section__title--testimonials,
+    .section__title--values {
         text-align: center;
+    }
+    .header__container {
+        width: 100%;
+        max-width: 300px;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .header__description {
+        width: 100%;
+        max-width: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+    .header__title {
+        font-size: 32px;
+        text-align: center;
+    }
+    .header__para {
+        font-size: 14px;
+        text-align: center;
+    }
+    .header__img--wrapper {
+        width: 100%;
+        max-width: 480px;
+    }
+    .header__figure {
+        justify-content: center;
+        align-items: center;
+    }
+    .customers {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .header__figure--customers {
+        width: 100%;
+        max-width: 500px;
+        justify-content: center;
+        align-items: center;
     }
     .features__wrapper {
         flex-direction: column;
@@ -1362,8 +1412,30 @@ footer {
         width: 100%;
         max-width: 400px;
     }
+    .features__para--head {
+        font-size: 14px;
+        text-align: center;
+    }
+    .features__title {
+        font-size: 18px;
+        text-align: center;
+    }
+    .features__para {
+        font-size: 14px;
+        text-align: center;}
     .quality__container {
         flex-direction: column;
+    }
+    .quality__head {
+        text-align: center;
+    }
+    .quality__para {
+        font-size: 14px;
+        text-align: center;
+    }
+    .quality__btn {
+        align-items: center;
+        justify-content: center;
     }
     .steps__container {
         flex-direction: column;
@@ -1371,19 +1443,74 @@ footer {
     .values__container {
         flex-direction: column;
     }
-    .plans__container {
-        flex-direction: column;
+    .values__head {
+        text-align: center;
     }
-    .pricing__content {
-        flex-direction: column;
+    .values__para {
+        font-size: 14px;
+        text-align: center;
     }
+    .values__btn {
+        align-items: center;
+        justify-content: center;
+    }
+    .values__img--primary {
+        align-items: center;
+        justify-content: center;
+    }
+    .plans {
+        flex-direction: column;
+        align-items: center;
+    }
+    
     .testimonials__container {
         flex-direction: column;
+    }
+    .testimonials__img--primary {
+        align-items: center;
+        justify-content: center;
+    }
+    .testimonials__head {
+        text-align: center;
+    }
+    .testimonials__para--section {
+        font-size: 14px;
+        text-align: center;
+    }
+    .testimonials__ratings {
+        text-align: center;
+    }
+    .testimonials__header {
+        text-align: center;
+    }
+    .testimonials__para {
+        text-align: center;
+    }
+    .footer__columns {
+        flex-direction: column;
+        justify-content: center;
     }
     
 }
 
-@media (max-width: 640px) {
+@media (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .header__title {
+        font-size: 20px;
+    }
+    .customers {
+        font-size: 16px
+        aic
+    }
+    .header__figure--customers {
+        width: 100%;
+        max-width: 380px;   
+    }
     .nav__links {
         display: none;
     }
@@ -1392,15 +1519,80 @@ footer {
     }
     .header__container {
         flex-direction: column;
-        text-align: center;
+        justify-content: center;;
     }
     .header__description {
-        width: 100%;
-        max-width: 400px;
+        margin-right: 32px;
         margin-bottom: 32px;
     }
     .input__wrapper {
+        display: flex;
+        align-items: center;
+        padding: ;
+        height: 44px;
+        border-radius: 50px;
+        overflow: hidden;
+    }
+    .input__wrapper input {
+        flex: 1;
+        height: 100%;
+        border: none;
+        padding: 0 16px;
+        outline: none;
+        font-size: 14px;
+    }
+    .input__wrapper button {
+        height: 100%;
+        padding: 16px 16px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50px;
+        font-size: 14px;
+    }
+    .quality__btn {
         width: 100%;
-        max-width: 400px;
+        max-width: 480px;
+        align-items: center;
+        justify-content: center;
+    }
+    .quality__img {
+        width: 100%;
+        max-width: 480px;
+    }
+    .title__rows {
+        align-items: center;
+        justify-content: center;
+    }
+    .values__img--primary {
+        width: 100%;
+        max-width: 440px;
+        align-items: center;
+        justify-content: center;
+    }
+    .testimonials__img--primary {
+        width: 100%;
+        max-width: 440px;
+        align-items: center;
+        justify-content: center;
+    }
+    .testimonials__text--box {
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    .testimonials__header {
+        font-size: 18px;
+    }
+    .testimonials__para {
+        font-size: 14px;
+    }
+    .footer__row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__copyright {
+        padding: 16px 0;
     }
 }
