@@ -160,7 +160,7 @@ nav__links {
 }
 
 .menu__backdrop {
-    position: absolute;
+    position: fixed;
     background-color: #242424;
     top: 0;
     left: 0;
@@ -1199,7 +1199,7 @@ header {
     z-index: 2;
 }
 
-.start__btn-contact {
+.start__btn--contact {
    padding: 20px 40px;
     border: 1px solid #f7fafc79;
     border-radius: 50px;
@@ -1350,6 +1350,12 @@ footer {
 /* MOBILE RESPONSIVENESS */
 
 @media (max-width: 768px) {
+    .btn__menu {
+        display: block;
+    }
+    .nav__links {
+        display: none;
+    }
     nav {
         height: 68px;
     }
@@ -1565,6 +1571,24 @@ footer {
         align-items: center;
         justify-content: center;
     }
+    .steps__img {
+        width: 100%;
+        max-width: 440px;
+        align-items: center;
+        justify-content: center;
+    }
+    .title__rows {
+        flex-direction: column;
+        width: 100%;
+        max-width: 400px;
+        padding: 12px;
+    }
+    .values__btn {
+        width: 100%;
+        max-width: 480px;
+        align-items: center;
+        justify-content: center;
+    }
     .values__img--primary {
         width: 100%;
         max-width: 440px;
@@ -1591,6 +1615,29 @@ footer {
     .footer__row {
         flex-direction: column;
         align-items: center;
+    }
+    .start__container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .start__title {
+        font-size: 28px;
+    }
+    
+    .start__btn--get {
+        padding: 14px;
+        width: 100%;
+        max-width: 480px;
+        align-items: center;
+        justify-content: center;
+    }
+    .start__btn--contact {
+        padding: 14px;
+        width: 100%;
+        max-width: 480px;
+        align-items: center;
+        justify-content: center;
     }
     .footer__copyright {
         padding: 16px 0;

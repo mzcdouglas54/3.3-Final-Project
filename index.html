@@ -49,7 +49,7 @@
               <i class="fa-solid fa-bars"></i>
             </button>
             <div class="menu__backdrop">
-              <button class="btn__menu btn__menu--close" onclick="openMenu()">
+              <button class="btn__menu btn__menu--close" onclick="closeMenu()">
                 <i class="fa-solid fa-times"></i>
               </button>
               <ul class="menu__links">
@@ -527,7 +527,7 @@
                 </div>
                 <div class="start__btns">
                   <button class="start__btn--get">Get Started</button>
-                  <button class="start__btn-contact">Contact Us</button>
+                  <button class="start__btn--contact">Contact Us</button>
                 </div>
               </div>
           </div>
@@ -620,5 +620,14 @@
         </div>
       </div>
     </footer>
+    <script>
+      function openMenu() {
+        document.body.classList.add('menu--open');
+      }
+
+      function closeMenu() {
+        document.body.classList.remove('menu--open');
+      }
+    </script>
   </body>
 </html>
