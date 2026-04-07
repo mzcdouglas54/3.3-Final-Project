@@ -701,3 +701,221 @@ header {
 
 /* PRICING */
 
+#pricing .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pricing .section__para {
+    max-width: 576px;
+    text-align: center;
+}
+
+.plans {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    margin-top: 24px;
+}
+
+.plan__top {
+    padding: 32px 0;
+}
+
+.plan__middle {
+    margin: 0 -32px;
+    padding: 32px;
+    border-top: 1px solid #243e633b;
+    border-bottom: 1px solid#243e633b;
+}
+
+.plan__middle--bus {
+    margin: 0 -32px;
+    padding: 32px;
+    border-top: 1px solid #0866f5;
+    border-bottom: 1px solid #0866f5;
+}
+
+.plan__bottom {
+    padding: 32px 64px;
+}
+
+.plan__name,
+.plan__price,
+.plan__duration {
+    font-weight: bold;
+}
+
+.plan__button--per,
+.plan__button--bus,
+.plan__button--ent {
+    padding: 12px 32px;
+    font-weight: bold;
+    transition: all 300ms ease;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.plan__button--per:hover,
+.plan__button--bus:hover,
+.plan__button--ent:hover {
+    transform: translate(1px, -1px);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.plan__name {
+    font-size: 20px;
+    color: #1a202c;
+}
+
+.plan__price {
+    font-size: 48px;
+    color: #1a202c;
+    padding: 32px 0;
+}
+
+.plan__duration {
+    font-size: 16px;
+    color: #a0aec0;
+}
+
+.plan__target {
+    font-size: 20px;
+    color: #243e63;
+}
+
+.plan__feature {
+    font-size: 16px;
+    color: #718096;
+    margin: 20px 0 0;
+}
+
+.plan__feature--bus {
+    font-size: 16px;
+    margin: 20px 0 0;
+}
+
+.plan__per {
+    position: relative;
+    background-color: #f7fafc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #243e633b;
+    border-radius: 12px;
+}
+
+.plan__stripe--per {
+    background: linear-gradient(to right, #38b2ac, #81e6d9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.plan__button--per {
+    align-items: center;
+    justify-content: center;
+    color: #f7fafc;
+    background: linear-gradient(to right, #38b2ac, #81e6d9);
+    width: 160px;
+    padding: 16px 16px;
+    margin: 8px 8px 8px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.plan__bus {
+    position: relative;
+    background-color: #6415ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #243e633b;
+    border-radius: 12px;
+}
+
+.plan__stripe--bus {
+    background: linear-gradient(to right, #6415ff, #9264ec);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.plan__duration--bus,
+.plan__target--bus,
+.plan__feature--bus {
+    color: #f7fafc;
+}
+
+.plan__target--bus {
+    font-size: 20px;
+}
+
+.plan__button--bus {
+    color: #6415ff;
+    background-color: #f7fafc;
+    width: 160px;
+    padding: 16px 16px;
+    margin: 8px 8px 8px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.plan__ent {
+    background-color: #f7fafc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #243e633b;
+    border-radius: 12px;
+}
+
+.plan__stripe--ent {
+    background: linear-gradient(to right, #f56565, #ebb3b3);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.plan__button--ent {
+    width: 160px;
+    padding: 16px 16px;
+    margin: 8px 8px 8px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(to right, #f56565, #ebb3b3);
+    color: #f7fafc;
+    cursor: pointer;
+}
+
+
