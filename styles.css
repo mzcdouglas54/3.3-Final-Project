@@ -1047,4 +1047,182 @@ section #testimonials {
 
 /* START */
 
+#start {
+    margin-bottom: 96px;
+}
+
+.start__container {
+    padding: 96px 0;
+    width: 100%;
+    background-color: #6415ff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start__row {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 0 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start__title,
+.start__buttons {
+    width: 50%;
+}
+
+.start__buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.start__title {
+    color: #f7fafc;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
+    z-index: 2;
+}
+
+.start__button {
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #f7fafc;
+    background-color: #f56565;
+    line-height: 1.5;
+    margin: 1px 32px 1px 1px;
+    z-index: 2;
+    transition: all 300ms ease;
+}
+
+.start__button--btn {
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #f7fafc;
+    background-color: #6415ff;
+    line-height: 1.5;
+    margin: 1px 32px 1px 1px;
+    z-index: 2;
+    transition: all 300ms ease;
+    border: 1px solid rgb(160, 174, 192);
+}
+
+/* FOOTER */
+
+footer {
+    padding: 96px 32px;
+    background-color: #6415ff;
+    margin-bottom: -32px;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer__columns {
+    margin-top: -48px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 24px;
+}
+
+.footer__column {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 2;
+}
+
+.footer__column--title {
+    font-weight: 700;
+    color: #f7fafc;
+    line-height: 1.5;
+}
+
+.footer__column--link {
+    color: #f7fafc;
+    font-size: 14px;
+    margin-top: 12px;
+    line-height: 1.5;
+    position: relative;
+    cursor: pointer;
+}
+
+a {
+   color: #f7fafc;
+    font-size: 14px;
+    margin-top: 12px;
+    line-height: 1.5;
+    position: relative;
+    cursor: pointer; 
+}
+
+.footer__column--link:hover {
+    opacity: 1;
+}
+
+.footer__divider {
+    width: 100%;
+    height: 1px;
+    margin: 64px 0;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.footer__bottom {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.footer_logo--img {
+    height: 32px;
+    width: 32px;
+}
+
+.footer__logo--text {
+    font-size: 20px;
+    font-weight: 700;
+    color: #f7fafc;
+    padding-left: 20px;
+}
+
+.footer__copyright {
+    flex: 1;
+    text-align: center;
+    color: #cbd5e0;
+}
+
+.footer__socials {
+    display: flex;
+    gap: 16px;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+
+
+
+
+/*  SMALL TABLET & PHONE */
+
+
+
+
 
