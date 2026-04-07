@@ -1200,7 +1200,7 @@ a {
     font-size: 20px;
     font-weight: 700;
     color: #f7fafc;
-    padding-left: 20px;
+    padding-left: 16px;
 }
 
 .footer__copyright {
@@ -1216,7 +1216,24 @@ a {
     justify-content: flex-end;
 }
 
+.footer__social--link {
+    color: #243e63;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
 
+.footer__img--wrapper {
+    width: 36px;
+    height: 36px;
+    background-color: #f7fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+}
 
 
 
