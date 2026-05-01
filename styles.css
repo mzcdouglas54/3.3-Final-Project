@@ -709,9 +709,16 @@ header {
     max-width: 1200px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 32px;
     margin-top: 24px;
+}
+
+.plan__per,
+.plan__bus,
+.plan__ent {
+    flex: 1;
+    max-width: 350px;
 }
 
 .plan__top {
@@ -1174,6 +1181,8 @@ a {
     max-width: 1200px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .footer__logo {
@@ -1202,6 +1211,8 @@ a {
 }
 
 .footer__socials {
+    width: 100%;
+    max-width: 1200px;
     display: flex;
     gap: 16px;
     flex: 1;
@@ -1230,100 +1241,7 @@ a {
 /*  SMALL TABLET & PHONE */
 
 @media (max-width: 768px) {
-    .nav__links {
-        display: none;
-    }
-
-    .btn__modal {
-        display: block;
-        background: transparent;
-        border: none;
-        font-size: 24px;
-        cursor: pointer;
-    }
-    .modal__links {
-        display: none;
-    }
     
-    nav {
-        height: 68px;
-    }
-
-    h1 {
-        font-size: 32px;
-    }
-
-    .section__title {
-        text-align: center;
-        font-size: 36px;
-    }
-
-    .section__para {
-        text-align: center;
-        font-size: 16px;
-    }
-
-    .header__container {
-        width: 100%;
-        max-width: 300px;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .header__description {
-        width: 100%;
-        max-width: 300px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .header__title {
-        font-size: 32px;
-        text-align: center;
-    }
-
-    .header__para {
-        font-size: 14px;
-        text-align: center;
-    }
-
-    .header__img-wrapper {
-        width: 100%;
-        max-width: 480px;
-    }
-
-    .header__figure {
-        justify-content: center;
-        align-items: center;
-    }
-
-    .customers {
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .header__figure--customers {
-        width: 100%;
-        max-width: 500px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .features__row {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .features {
-        width: 100%;
-        max-width: 400px;
-    }
-
-    .features__
-
-}
 
 
 
