@@ -346,12 +346,17 @@ header {
     gap: 48px;
 }
 
+.header__title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
 .header__description {
     flex: 1.1;
 }
 
 .header__para {
-    font-size: 18px;
+    font-size: 16px;
     padding: 0 36px 0 0;
     color: #243e63;
     margin: 32px 16px 32px 0;
