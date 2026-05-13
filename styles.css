@@ -998,25 +998,29 @@ section #testimonials {
 }
 
 #testimonials .row {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 100%;
     max-width: 1200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 48px;
 }
 
 .testimonials__img,
 .testimonials__description {
-    width: 50%;
+    width: calc(100% / 2);
     
 }
 
 .testimonials__description {
     padding-bottom: 32px;
+    margin: 0 0 0 24px;
 }
 .testimonials__img {
-    width: 560px;
+    width: 100%;
+    max-width: 500px;
 }
 
 #testimonials .section__title {
@@ -1085,6 +1089,7 @@ section #testimonials {
 .testimonial__buttons {
     display: flex;
     align-items: center;
+    padding: 0 24px;
 }
 
 .testimonial__button img {
@@ -1118,6 +1123,10 @@ section #testimonials {
 }
 
 /* START */
+
+#start {
+    padding: 0 24px;
+}
 
 .start__container {
     padding: 96px 0;
@@ -1424,7 +1433,7 @@ a {
     }
     .quality__description {
         margin-right: 0;
-        padding-right: 48px;
+        padding: 0 48px;
     }
     #steps .row {
         align-items: center;
@@ -1446,12 +1455,16 @@ a {
     .value {
         margin-top: 24px;
     }
+    .values__description {
+        padding: 0 48px;
+    }
     .values__list {
         max-width: 320px;
         flex-direction: column;
     }
     .values__img {
-        max-width: 500px;
+        max-width: 400px;
+        padding-right: 24px;
     }
     .plans {
         flex-direction: column;
@@ -1460,6 +1473,8 @@ a {
     .plan {
         margin-right: 0;
     }
+    .plan__per, .plan__bus, .plan__ent {
+        width: 50%;
     #features .section__title,
     #pricing .section__title {
         font-size: 48px;
@@ -1469,19 +1484,31 @@ a {
         padding-bottom: 80px;
     }
     #testimonials .row {
-        
+        padding: 0 28px;
+    }
+
     .testimonials__description {
-        padding: 0 48px;
+        margin: 0 36px;
         
     }
     .testimonials__img {
-        max-width: 460px;
+       width: 80%;
+       max-width: 320px;
+       height: auto;
+    }
+    #testimonials .section__para {
+        font-size: 14px;
+    }
+    .testimonial__para {
+        font-size: 14px;
     }
     #start .container {
         padding: 80px 40px;
+        overflow: hidden;
 }
     .start__row {
         flex-direction: column;
+        margin: 0 24px;
     }
     .start__title {
         text-align: center;
@@ -1595,6 +1622,9 @@ a {
     .value__img {
         margin: 28px;
     }
+    .testimonial__para {
+        font-size: 14px;
+    }
     .testimonial__buttons {
         margin-top: 16px;
     }
@@ -1609,9 +1639,20 @@ a {
         flex-direction: column;
         align-items: center;
     }
+    .plan__per,
+    .plan__bus,
+    .plan__ent {
+        width: 75%;
+}
     .plan__price {
         font-size: 48px;
         line-height: 1.5;
+    }
+    .testimonial__name {
+        font-size: 16px;
+    }
+    .testimonial__role {
+        font-size: 14px;
     }
     .start__row {
         flex-direction: column;
@@ -1639,7 +1680,7 @@ a {
         align-items: center;
     }
     .footer__copyright {
-        padding: 16px 0;
+        padding: 14px 0;
     }
     .footer__socials {
         justify-content: center;
